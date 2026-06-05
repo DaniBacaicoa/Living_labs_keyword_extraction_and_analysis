@@ -216,3 +216,46 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+
+
+# ── Project-specific ────────────────────────────────────────────────────────
+
+# Config (contains host URL and credentials)
+config.yaml
+.env
+
+# LLM cache and run outputs inside Notebooks/
+Notebooks/query_cache/
+Notebooks/cache/
+Notebooks/data/
+
+# Saved runs — comment out if you want to track results
+#Notebooks/runs/
+
+# Data folders
+data/
+Keywords_datasets/
+
+# kwds pickle/data files (regenerable)
+kwds/
+
+# Notebook checkpoints
+**/.ipynb_checkpoints/
+
+# Old work
+Old/
+Old_notebooks/
+query_cache_old/
+query_cache/
+runs/
+runs_last/
+
+
+# Cache
+*cache*
+__pycache__/
+.cache/
+
+# JSON files
+*.json
